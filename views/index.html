@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Vinicius</title>
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Permanent+Marker&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="logo"><a href="#" onclick="showPopup()">PORTFOLIO</a></div>
+        <ul class="nav-links">
+            <li><a href="#" onclick="showPopup()">Início</a></li>
+            <li><a href="#sobre">Sobre</a></li>
+            <li><a href="#projetos">Projetos</a></li>
+            <li><a href="#blog">Blog</a></li>
+            <li class="contact-mobile"><a href="mailto:viniciusmiranda2003@outlook.com">Entre em Contato</a></li>
+        </ul>
+        <a class="contact-button-desktop" href="mailto:viniciusmiranda2003@outlook.com">Entre em Contato</a>
+        <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-text">
+            <h1>Vinicius | Software Engineer</h1>
+            <p>Graduated in Software Engineering with passion for backend development, full stack and creative solutions. Focused on creating robust and scalable systems for the modern web.</p>
+
+            <div class="buttons">
+                <button class="btn secondary" onclick="window.location.href='sobre.html'">Learn More</button>
+            </div>
+
+            <div class="social-media">
+                <a href="https://www.instagram.com/viniciusfroggel/" target="_blank">
+                    <img src="../assets/img/instagram.png" alt="Instagram">
+                </a>
+                <a href="https://www.linkedin.com/in/viniciusandr%C3%A9/" target="_blank">
+                    <img src="../assets/img/linkedin.png" alt="LinkedIn">
+                </a>
+                <a href="https://github.com/VineeAndre" target="_blank">
+                    <img src="../assets/img/github.png" alt="GitHub">
+                </a>
+                <a href="mailto:viniciusmiranda2003@Outlook.com">
+                    <img src="../assets/img/email.png" alt="Email">
+                </a>
+            </div>
+        </div>
+
+        <div class="hero-img">
+            <img src="../assets/img/foto.png" alt="Minha Foto">
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>&copy; 2025 Vinicius. All rights reserved.</p>
+    </footer>
+
+    <!-- Theme Toggle -->
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+
+    <!-- Popup -->
+    <div class="popup" id="popup">
+        <div class="popup-content">
+            <h2>Welcome!</h2>
+            <p>Explore my portfolio and check out my projects as a developer.</p>
+            <button class="close-btn" onclick="closePopup()">Close</button>
+        </div>
+    </div>
+
+    <script src="../assets/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Permanent+Marker&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #111;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    transition: 0.5s;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: #000;
+    position: relative;
+}
+
+.logo a {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 26px;
+    color: #A259FF;
+    text-decoration: none;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #A259FF;
+}
+
+/* Botão de contato (Desktop) */
+.contact-button-desktop {
+    background-color: #A259FF;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 0.3s;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+}
+
+.contact-button-desktop:hover {
+    background-color: #7f39d9;
+}
+
+/* Menu Hamburguer */
+.menu-toggle {
+    display: none;
+    cursor: pointer;
+    font-size: 26px;
+    color: white;
+}
+
+/* Hero Section */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 10%;
+    flex-wrap: wrap;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+.hero-text p {
+    font-size: 18px;
+    max-width: 600px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.buttons .btn {
+    background-color: #A259FF;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: 0.3s;
+    font-family: 'Orbitron', sans-serif;
+}
+
+.buttons .btn.secondary {
+    background: transparent;
+    border: 2px solid #A259FF;
+}
+
+.buttons .btn:hover {
+    transform: scale(1.05);
+}
+
+.social-media {
+    margin-top: 20px;
+    display: flex;
+    gap: 20px;
+}
+
+.social-media img {
+    width: 40px;
+    height: 40px;
+    filter: drop-shadow(0 0 5px #A259FF);
+    transition: transform 0.3s;
+}
+
+.social-media img:hover {
+    transform: scale(1.1);
+}
+
+.hero-img img {
+    width: 350px;
+    border-radius: 20px;
+}
+
+/* Popup */
+.popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+}
+
+.popup-content {
+    background-color: #222;
+    padding: 30px;
+    border-radius: 15px;
+    text-align: center;
+    border: 2px solid #A259FF;
+}
+
+.popup-content h2 {
+    margin-bottom: 15px;
+}
+
+.popup-content button {
+    margin-top: 15px;
+    background-color: #A259FF;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 8px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Orbitron', sans-serif;
+}
+
+/* Footer */
+.footer {
+    background-color: #000;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+
+/* Theme Toggle */
+.theme-toggle {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    background-color: #A259FF;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    border-radius: 50%;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 0 10px #A259FF;
+    transition: 0.3s;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+}
+
+/* Tema Claro */
+body.light-theme {
+    background-color: #fff;
+    color: #000;
+}
+
+body.light-theme .navbar {
+    background-color: #eee;
+}
+
+body.light-theme .nav-links li a {
+    color: #000;
+}
+
+body.light-theme .nav-links li a:hover {
+    color: #A259FF;
+}
+
+body.light-theme .logo a {
+    color: #A259FF;
+}
+
+body.light-theme .contact-button-desktop {
+    background-color: #A259FF;
+    color: white;
+}
+
+body.light-theme .contact-button-desktop:hover {
+    background-color: #7f39d9;
+}
+
+body.light-theme .hero-text p {
+    color: #333;
+}
+
+body.light-theme .footer {
+    background-color: #eee;
+    color: #000;
+}
+
+body.light-theme .popup {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+body.light-theme .popup-content {
+    background-color: #f4f4f4;
+    border: 2px solid #A259FF;
+    color: #000;
+}
+
+body.light-theme .theme-toggle {
+    background-color: #A259FF;
+    color: white;
+}
+
+/* ---------------------------- */
+/* Responsividade */
+/* ---------------------------- */
+@media (max-width: 768px) {
+    .navbar {
+        padding: 15px 20px;
+    }
+
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        gap: 25px;
+        background-color: #000;
+        position: absolute;
+        top: 70px;
+        right: 0;
+        left: 0;
+        padding: 30px 0;
+        width: 100%;
+        align-items: center;
+    }
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .contact-button-desktop {
+        display: none;
+    }
+
+    .hero {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        padding: 60px 5%;
+    }
+
+    .hero-img img {
+        width: 250px;
+        margin-top: 25px;
+    }
+
+    .hero-text h1 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+        line-height: 1.5;
+    }
+
+    .social-media {
+        margin-top: 25px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .social-media img {
+        width: 36px;
+        height: 36px;
+    }
+}
+
+@media (max-width: 480px) {
+    .hero-text h1 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 15px;
+    }
+
+    .buttons .btn {
+        padding: 8px 15px;
+    }
+}
