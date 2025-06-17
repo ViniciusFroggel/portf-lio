@@ -16,9 +16,9 @@ Este é meu portfólio profissional, desenvolvido com foco em performance, desig
 
 ---
 
-## 🏢 Estrutura do Projeto
+## 🏢 Estrutura do Projeto Final
 ```
-/
+
 / 
 ├── assets/                # Arquivos estáticos (imagens, ícones, fontes)
 │   ├── css/               # Estilos globais
