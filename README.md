@@ -17,11 +17,10 @@ Este é meu portfólio profissional, desenvolvido com foco em performance, desig
 ---
 
 ## 🏗️ Estrutura do Projeto
-
 /
 ├── assets/               # Arquivos estáticos (imagens, ícones, fontes)
 │   ├── css/              # Estilos globais
-│   │   └── style.css
+│   │   └── style.css     # Arquivo CSS principal
 │   └── img/              # Imagens e ícones utilizados
 │
 ├── components/           # Componentes reutilizáveis (Navbar, Footer, ThemeToggle)
@@ -30,7 +29,7 @@ Este é meu portfólio profissional, desenvolvido com foco em performance, desig
 │
 ├── routes/               # Gerenciamento de rotas (React Router)
 │
-├── hooks/                # Custom Hooks (como hook de tema, etc.)
+├── hooks/                # Custom Hooks (ex.: hook de tema, etc.)
 │
 ├── context/              # Context API para estados globais (ex.: tema claro/escuro)
 │
@@ -41,14 +40,12 @@ Este é meu portfólio profissional, desenvolvido com foco em performance, desig
 ├── index.html            # Arquivo HTML base
 ├── index.css             # Estilos globais + Tailwind
 │
-├── .gitignore            # Arquivos/pastas ignoradas no Git
+├── .gitignore            # Arquivos e pastas ignorados no Git
 ├── package.json          # Dependências e scripts
 ├── tailwind.config.js    # Configuração do Tailwind CSS
 ├── postcss.config.js     # Configuração do PostCSS
 ├── vite.config.js        # Configuração do Vite
 └── README.md             # Documentação do projeto
-
-
 
 ---
 
