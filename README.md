@@ -58,12 +58,10 @@ yarn install
 npm run dev
 # ou
 yarn dev
-Acesse em: http://localhost:5173
+Acesse: Em andamento...
 
 🌐 Deploy
 O projeto está preparado para ser hospedado em serviços
-
-Render
 
 📸 Preview
 Em andamento
