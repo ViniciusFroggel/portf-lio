@@ -1,4 +1,4 @@
-🖥️ My Developer Portfolio
+x'🖥️ My Developer Portfolio
 Este é o meu portfólio desenvolvido utilizando React, Vite, TailwindCSS e outras tecnologias modernas. Aqui compartilho um pouco da minha trajetória, projetos, habilidades e formas de contato.
 
 O projeto está em desenvolvimento e, em breve, estará disponível online.
@@ -25,52 +25,29 @@ Em breve...
 
 📂 Estrutura de pastas
 / (root)
-├── index.html                  # Template principal
-│
-├── src/                        # Todo o código fonte
-│   ├── assets/                 # Imagens, ícones, fontes, vídeos, etc.
-│   │
-│   ├── components/             # Componentes reutilizáveis
-│   │   ├── Navbar.jsx
-│   │   ├── Footer.jsx
-│   │   ├── Button.jsx
-│   │   └── Card.jsx
-│   │
-│   ├── pages/                  # Seções principais (SPA — Single Page Application)
-│   │   ├── Home.jsx
-│   │   ├── About.jsx
-│   │   ├── Projects.jsx
-│   │   └── Contact.jsx
-│   │
-│   ├── routes/                 # Gerenciamento de rotas
-│   │   └── AppRoutes.jsx
-│   │
-│   ├── context/                # Context API (tema, autenticação, etc.)
-│   │   └── ThemeContext.jsx
-│   │
-│   ├── hooks/                  # Custom Hooks (funções reutilizáveis)
-│   │   └── useTheme.js
-│   │
-│   ├── utils/                  # Funções utilitárias e helpers
-│   │   └── formatDate.js
-│   │
-│   ├── App.jsx                 # Componente raiz da aplicação
-│   ├── main.jsx                # Ponto de entrada — faz a renderização no DOM
-│   └── index.css               # Estilos globais + TailwindCSS
-│
-├── .gitignore                  # Arquivos e pastas ignorados no Git
-├── package.json                # Dependências, scripts e configurações do projeto
-├── tailwind.config.js          # Configurações do TailwindCSS
-├── postcss.config.js           # Configurações do PostCSS
-├── vite.config.js              # Configurações do Vite (plugins, aliases, etc.)
-│
-├── README.md                   # Documentação do projeto
-└── LICENSE                     # Licença do projeto
+├── index.html
+├── src/
+│ ├── assets/ → Imagens, ícones, fontes
+│ ├── components/ → Navbar, Footer, Button, Card, etc.
+│ ├── context/ → Context API (ThemeContext, etc.)
+│ ├── hooks/ → Hooks personalizados
+│ ├── pages/ → Home, About, Projects, Contact
+│ ├── routes/ → Configuração de rotas
+│ ├── utils/ → Funções auxiliares
+│ ├── App.jsx → Componente principal
+│ ├── main.jsx → Ponto de entrada
+│ └── index.css → Estilos globais + Tailwind
+├── .gitignore
+├── package.json
+├── postcss.config.js
+├── tailwind.config.js
+├── vite.config.js
+└── README.md
 
 🚀 Como executar localmente
 Copiar
 
-git clone https://github.com/seuusuario/portfolio.git
+git clone https:https://github.com/ViniciusFroggel/portf-lio.git
 
 cd portfolio
 
