@@ -1,4 +1,4 @@
-x'🖥️ My Developer Portfolio
+🖥️ My Developer Portfolio
 Este é o meu portfólio desenvolvido utilizando React, Vite, TailwindCSS e outras tecnologias modernas. Aqui compartilho um pouco da minha trajetória, projetos, habilidades e formas de contato.
 
 O projeto está em desenvolvimento e, em breve, estará disponível online.
