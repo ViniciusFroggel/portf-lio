@@ -4,7 +4,7 @@ Este é o meu portfólio desenvolvido utilizando React, Vite, TailwindCSS e outr
 O projeto está em desenvolvimento e, em breve, estará disponível online.
 
 🔗 Acesse meu portfólio:
-Em breve: https://meuportfolio.com
+Em breve...
 
 🚀 Tecnologias utilizadas
 ⚛️ React
