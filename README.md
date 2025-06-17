@@ -1,4 +1,4 @@
-# 🌐 Portfólio - Vinicius André Froggel de Miranda
+# 🌐 Portfólio - Vinicius 
 
 Este é meu portfólio profissional, desenvolvido com foco em performance, design moderno, responsividade e interatividade. Aqui apresento meus projetos, minhas habilidades e um pouco da minha trajetória como desenvolvedor.
 
