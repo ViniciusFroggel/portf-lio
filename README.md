@@ -49,6 +49,7 @@ Este é meu portfólio profissional, desenvolvido com foco em performance, desig
 └── README.md             # Documentação do projeto
 
 
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
