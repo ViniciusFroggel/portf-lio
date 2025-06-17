@@ -85,7 +85,7 @@ Portfólio desenvolvido com o objetivo de apresentar meus principais projetos, m
 
 ## 📸 Preview do Projeto
 
-Adicione aqui um print da tela principal do portfólio após hospedado.
+Em andamento...
 
 ---
 
