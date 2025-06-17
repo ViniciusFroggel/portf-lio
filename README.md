@@ -1,94 +1,97 @@
-🖥️ My Developer Portfolio
-Este é o meu portfólio desenvolvido utilizando React, Vite, TailwindCSS e outras tecnologias modernas. Aqui compartilho um pouco da minha trajetória, projetos, habilidades e formas de contato.
+# 🌐 Portfólio - Vinicius André Froggel de Miranda
 
-O projeto está em desenvolvimento e, em breve, estará disponível online.
+Este é meu portfólio profissional, desenvolvido com foco em performance, design moderno, responsividade e interatividade. Aqui apresento meus projetos, minhas habilidades e um pouco da minha trajetória como desenvolvedor.
 
-🔗 Acesse meu portfólio:
-Em breve...
+---
 
-🚀 Tecnologias utilizadas
-⚛️ React
+## 🚀 Funcionalidades
 
-⚡ Vite
+- ✅ Design responsivo e adaptado para qualquer dispositivo
+- ✅ Alternância de tema (modo claro e escuro)
+- ✅ Navegação dinâmica e intuitiva
+- ✅ Sessão de projetos com visual atraente
+- ✅ Sessão sobre mim com informações da minha formação e trajetória
+- ✅ Botões de contato direto (WhatsApp, LinkedIn, Email)
+- ✅ Estrutura preparada para futuras atualizações e melhorias
 
-🎨 TailwindCSS
+---
 
-🔀 React Router DOM
+## 🏗️ Estrutura do Projeto
 
-🌗 Context API (Theme Dark/Light)
+/
+├── assets/ # Arquivos estáticos (imagens, ícones, fontes)
+│ ├── css/ # Estilos globais
+│ │ └── style.css
+│ └── img/ # Imagens e ícones utilizados
+│
+├── components/ # Componentes reutilizáveis (Navbar, Footer, ThemeToggle)
+│
+├── pages/ # Seções principais da página (Home, About, Projects, Contact)
+│
+├── routes/ # Gerenciamento de rotas (React Router)
+│
+├── hooks/ # Custom Hooks (como hook de tema, etc.)
+│
+├── context/ # Context API para estados globais (ex.: tema claro/escuro)
+│
+├── utils/ # Funções auxiliares e helpers
+│
+├── App.jsx # Componente principal da aplicação
+├── main.jsx # Ponto de entrada da aplicação
+├── index.html # Arquivo HTML base
+├── index.css # Estilos globais + Tailwind
+│
+├── .gitignore # Arquivos/pastas ignoradas no Git
+├── package.json # Dependências e scripts
+├── tailwind.config.js # Configuração do Tailwind CSS
+├── postcss.config.js # Configuração do PostCSS
+├── vite.config.js # Configuração do Vite
+└── README.md # Documentação do projeto
 
-🔧 Hooks personalizados
+---
 
-💡 Arquitetura modularizada
+## 🛠️ Tecnologias Utilizadas
 
-🗂️ Deploy com Vercel / Netlify
+- ⚛️ **React JS** - Biblioteca para construção da interface
+- 🌐 **HTML5** e **CSS3** - Estrutura e estilo
+- 🎨 **Tailwind CSS** - Framework de estilização utilitária
+- 🎯 **JavaScript (ES6+)**
+- 🚀 **Vite** - Bundler ultra rápido
+- 🔗 **React Router DOM** - Gerenciamento de rotas
+- 🌙 **Context API** - Gerenciamento de estado (tema claro/escuro)
+- 💡 **Hooks personalizados**
+- 📁 **Arquitetura limpa e escalável**
 
-📂 Estrutura de pastas
-/ (root)
-├── index.html
-├── src/
-│ ├── assets/ → Imagens, ícones, fontes
-│ ├── components/ → Navbar, Footer, Button, Card, etc.
-│ ├── context/ → Context API (ThemeContext, etc.)
-│ ├── hooks/ → Hooks personalizados
-│ ├── pages/ → Home, About, Projects, Contact
-│ ├── routes/ → Configuração de rotas
-│ ├── utils/ → Funções auxiliares
-│ ├── App.jsx → Componente principal
-│ ├── main.jsx → Ponto de entrada
-│ └── index.css → Estilos globais + Tailwind
-├── .gitignore
-├── package.json
-├── postcss.config.js
-├── tailwind.config.js
-├── vite.config.js
-└── README.md
+---
 
-🚀 Como executar localmente
-Copiar
+## 💻 Hospedagem
 
-git clone https:https://github.com/ViniciusFroggel/portf-lio.git
+O projeto está em processo de finalização e em breve estará disponível para acesso através de um link hospedado.
 
-cd portfolio
+---
 
-npm install
-# ou
-yarn install
+## 📄 Sobre
 
-npm run dev
-# ou
-yarn dev
-Acesse: Em andamento...
+Portfólio desenvolvido com o objetivo de apresentar meus principais projetos, minhas experiências e meus conhecimentos adquiridos durante minha formação em **Engenharia de Software** e minha trajetória como desenvolvedor.
 
-🌐 Deploy
-O projeto está preparado para ser hospedado em serviços
+---
 
-📸 Preview
-Em andamento
+## ✍️ Autor
 
-🏗️ Status do Projeto
-🟨 Em desenvolvimento — finalizando detalhes e ajustes para deploy.
+**Vinicius André Froggel de Miranda**  
+🔗 [LinkedIn](https://www.linkedin.com/in/viniciusfroggel/)  
 
-📜 Licença
-Projeto licenciado sob a licença MIT.
+---
 
-💼 Sobre mim
-Sou desenvolvedor graduado em Engenharia de Software, apaixonado por tecnologia, desenvolvimento web e soluções criativas. Este portfólio representa minha trajetória, meus projetos e minhas habilidades.
+## 📸 Preview do Projeto
 
-📲 Contato
-✉️ Email: Viniciusmiranda2003@outlook.com
+Adicione aqui um print da tela principal do portfólio após hospedado.
 
-🔗 LinkedIn: linkedin.com/in/https://www.linkedin.com/in/viniciusfroggel/
+---
 
-💻 GitHub: github.com/https://github.com/ViniciusFroggel
+## 📥 Clone o Projeto
 
-🔥 Melhorias futuras
-🌓 Sistema de tema claro/escuro
-
-🚀 Animações com Framer Motion
-
-🎨 Melhorias na responsividade
-
-🛠️ SEO otimizado
-
-📈 Integração com API de projetos (futuramente)
+git bash
+git clone https://github.com/seu-usuario/seu-repositorio.git
+📌 Status do Projeto
+🚧 Em desenvolvimento... melhorias constantes!
