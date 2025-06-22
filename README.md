@@ -86,8 +86,7 @@ Portfólio desenvolvido com o objetivo de apresentar meus principais projetos, m
 
 ![image](https://github.com/user-attachments/assets/2a1f273c-b03c-4e90-ab45-0dbe045642e6)
 
-![image](https://github.com/user-attachments/assets/12f3580f-3ef4-4bb9-863f-280332fef1fc)
-
+![image](https://github.com/user-attachments/assets/08d0502b-334d-44ff-ab7a-0eec335115e6)
 
 
 ---
